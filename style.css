@@ -2165,7 +2165,8 @@ blockquote p {
 
 
 
-/* # Added by Philip A. on 21 July 2016
+/* # Branding Course Landing Page Styling
+     Added by Philip A. on 21 July 2016
 ---------------------------------------------------------------------------------------------------- */
 
 .page-template-page-branding-course .post-edit-link {
@@ -2265,7 +2266,6 @@ blockquote p {
 .page-template-page-branding-course .bc-section-about-left,
 .page-template-page-branding-course .bc-section-about-right {
     float: left;
-    /*width: 50%;*/
 }
 
 .page-template-page-branding-course .bc-section-about-left {
@@ -2275,7 +2275,6 @@ blockquote p {
 .page-template-page-branding-course .bc-section-about-right {
     width: 52%;
 }
-
 
 .page-template-page-branding-course .bc-section-dark {
     background-color: #000;
@@ -2324,6 +2323,8 @@ blockquote p {
     border-radius: 2px;
     color: #ffcb05;
     margin: 22px auto 12px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
     transition: all 0.3s;
     outline: none;
     position: relative;
@@ -2357,7 +2358,6 @@ blockquote p {
     width: 100%;
 }
 
-
 .page-template-page-branding-course .bc-features-left,
 .page-template-page-branding-course .bc-features-right {
     width: 50%;
@@ -2388,7 +2388,6 @@ blockquote p {
     width: 30%;
 }
 
-
 .page-template-page-branding-course .bc-features-list li {
     font-family: "Open Sans Regular", Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -2398,11 +2397,12 @@ blockquote p {
     position: relative;
     vertical-align: middle;
     line-height: 1.2;
-
     display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     align-items: center;
-
-
 }
 
 .page-template-page-branding-course footer {
@@ -2416,8 +2416,7 @@ blockquote p {
 }
 
 .page-template-page-branding-course footer ul li {
-    font-family: "Open Sans Regular", Helvetica, Arial, sans-serif
-;
+    font-family: "Open Sans Regular", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-size: 14px;
 }
@@ -2467,9 +2466,6 @@ blockquote p {
 
 
 
-
-
-
 @media only screen and (max-width: 1349px) {
 
     /* ### Branding Course Edits */
@@ -2482,9 +2478,6 @@ blockquote p {
         margin: 20px 0;
     }
 
-
-
-    /* ### Branding Course Edits */
     .page-template-page-branding-course .bc-section-about-left {
         width: 50%;
     }
@@ -2492,8 +2485,6 @@ blockquote p {
     .page-template-page-branding-course .bc-section-about-right {
         width: 50%;
     }
-
-
 
     .page-template-page-branding-course .bc-features-left,
     .page-template-page-branding-course .bc-features-right {
@@ -3035,7 +3026,6 @@ blockquote p {
 }
 @media only screen and (max-width: 480px) {
 
-
     /* ### Branding Course Edits */
     .page-template-page-branding-course .bc-featured-in-list {
         flex-direction: column;
@@ -3088,9 +3078,7 @@ blockquote p {
         font-size: 26px;
         line-height: 1.2;
     }
-
-
-
+    
     #phone .phone, #phone .social {
         float:none;
         padding:0;
