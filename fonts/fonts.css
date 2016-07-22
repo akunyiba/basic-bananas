@@ -1,0 +1,30 @@
+/* Noticia */
+
+@font-face {
+    font-family: 'Open Sans Extrabold';
+    src: url('/wp-content/themes/bb/fonts/open-sans/opensans-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: url('/wp-content/themes/bb/fonts/open-sans/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url('/wp-content/themes/bb/fonts/open-sans/opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url('/wp-content/themes/bb/fonts/open-sans/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
