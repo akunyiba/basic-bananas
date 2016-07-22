@@ -2180,7 +2180,7 @@ blockquote p {
     background: url(/wp-content/themes/bb/images/branding-course/bc-logo.png) no-repeat left bottom;
     background-size: 160px;
     float: left;
-    padding: 34px 0 0;
+    padding: 40px 0 0;
 }
 
 .page-template-page-branding-course #content {
@@ -2190,7 +2190,7 @@ blockquote p {
 .page-template-page-branding-course .entry-header {
     background-color: #e9eeea;
     padding: 0 14.6%;
-    height: 90px;
+    height: 100px;
 }
 
 .page-template-page-branding-course .entry-header::after {
@@ -2318,7 +2318,7 @@ blockquote p {
     text-align: center;
     display: block;
     width: 180px;
-    padding: 10px 14px;
+    padding: 6px 20px;
     border: 2px solid #ffcb05;
     border-radius: 2px;
     color: #ffcb05;
@@ -2373,6 +2373,10 @@ blockquote p {
     clear: both;
     content: " ";
     display: table;
+}
+
+.page-template-page-branding-course .bc-section-features p:last-of-type {
+    padding-top: 30px;
 }
 
 .page-template-page-branding-course .bc-features-list {
@@ -3078,7 +3082,7 @@ blockquote p {
         font-size: 26px;
         line-height: 1.2;
     }
-    
+
     #phone .phone, #phone .social {
         float:none;
         padding:0;
